@@ -11,7 +11,7 @@ def reverse_each_word(sentence)
   
   r_sentence = a_reverse.join(" ") 
   
-  sentence.collect{}
+  a_sentence.collect{}
   
   return r_sentence 
 end 
