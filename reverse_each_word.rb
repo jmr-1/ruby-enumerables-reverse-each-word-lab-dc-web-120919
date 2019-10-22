@@ -9,5 +9,6 @@ def reverse_each_word(sentence)
     a_reverse.push(i.reverse)
   end 
   
-  return a_reverse 
+  r_sentence = a_reverse.join 
+  return r_sentence 
 end 
